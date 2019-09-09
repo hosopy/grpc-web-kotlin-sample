@@ -1,0 +1,14 @@
+syntax = "proto3";
+option java_package = "com.hosopy.kotlingrpcsample.textanalyzer.proto";
+
+service TextAnalyzer {
+    rpc AnalizeText (TextAnalysisRequest) returns (TextAnalysisResult);
+}
+
+message TextAnalysisRequest {
+    string text = 1;
+}
+
+message TextAnalysisResult {
+    int32 length = 1;
+}

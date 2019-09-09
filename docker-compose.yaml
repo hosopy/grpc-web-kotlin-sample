@@ -1,0 +1,33 @@
+version: '3'
+services:
+  web:
+    build:
+      context: ./web
+    command: npm run dev
+    environment:
+      GRPC_HOST: http://localhost:8080
+      HOST: 0.0.0.0
+    ports:
+      - "3000:3000"
+    depends_on:
+      - reverse-proxy
+  reverse-proxy:
+    build:
+      context: ./reverse-proxy
+    ports:
+      - "8080:8080"
+      - "9901:9901"
+    depends_on:
+      - service
+  service:
+    build:
+      context: ./service
+    ports:
+      - "6565:6565"
+    depends_on:
+      - internal-service
+  internal-service:
+    build:
+      context: ./internal-service
+    ports:
+      - "6566:6565"

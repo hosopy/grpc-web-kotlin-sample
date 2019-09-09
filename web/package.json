@@ -1,0 +1,34 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "My prime Nuxt.js project",
+  "author": "hosopy",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.ts,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/bulma": "^1.2.1",
+    "google-protobuf": "^3.10.0-rc.1",
+    "grpc-web": "^1.0.6",
+    "nuxt": "^2.0.0",
+    "vue-property-decorator": "^8.2.2"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^0.2.6",
+    "@nuxtjs/eslint-config": "^1.0.1",
+    "@nuxtjs/eslint-config-typescript": "^0.1.2",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@types/google-protobuf": "^3.7.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4"
+  }
+}
