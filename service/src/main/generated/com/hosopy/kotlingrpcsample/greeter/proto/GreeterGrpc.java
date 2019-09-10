@@ -27,30 +27,30 @@ public final class GreeterGrpc {
   public static final String SERVICE_NAME = "Greeter";
 
   // Static method descriptors that strictly reflect the proto.
-  private static volatile io.grpc.MethodDescriptor<com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest,
-      com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply> getSayHelloMethod;
+  private static volatile io.grpc.MethodDescriptor<com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest,
+      com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply> getSayHelloMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "SayHello",
-      requestType = com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest.class,
-      responseType = com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply.class,
+      requestType = com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest.class,
+      responseType = com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
-  public static io.grpc.MethodDescriptor<com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest,
-      com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply> getSayHelloMethod() {
-    io.grpc.MethodDescriptor<com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest, com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply> getSayHelloMethod;
+  public static io.grpc.MethodDescriptor<com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest,
+      com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply> getSayHelloMethod() {
+    io.grpc.MethodDescriptor<com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest, com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply> getSayHelloMethod;
     if ((getSayHelloMethod = GreeterGrpc.getSayHelloMethod) == null) {
       synchronized (GreeterGrpc.class) {
         if ((getSayHelloMethod = GreeterGrpc.getSayHelloMethod) == null) {
           GreeterGrpc.getSayHelloMethod = getSayHelloMethod = 
-              io.grpc.MethodDescriptor.<com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest, com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply>newBuilder()
+              io.grpc.MethodDescriptor.<com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest, com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(
                   "Greeter", "SayHello"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest.getDefaultInstance()))
+                  com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply.getDefaultInstance()))
+                  com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply.getDefaultInstance()))
                   .setSchemaDescriptor(new GreeterMethodDescriptorSupplier("SayHello"))
                   .build();
           }
@@ -88,8 +88,8 @@ public final class GreeterGrpc {
 
     /**
      */
-    public void sayHello(com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest request,
-        io.grpc.stub.StreamObserver<com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply> responseObserver) {
+    public void sayHello(com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest request,
+        io.grpc.stub.StreamObserver<com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply> responseObserver) {
       asyncUnimplementedUnaryCall(getSayHelloMethod(), responseObserver);
     }
 
@@ -99,8 +99,8 @@ public final class GreeterGrpc {
             getSayHelloMethod(),
             asyncUnaryCall(
               new MethodHandlers<
-                com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest,
-                com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply>(
+                com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest,
+                com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply>(
                   this, METHODID_SAY_HELLO)))
           .build();
     }
@@ -126,8 +126,8 @@ public final class GreeterGrpc {
 
     /**
      */
-    public void sayHello(com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest request,
-        io.grpc.stub.StreamObserver<com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply> responseObserver) {
+    public void sayHello(com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest request,
+        io.grpc.stub.StreamObserver<com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply> responseObserver) {
       asyncUnaryCall(
           getChannel().newCall(getSayHelloMethod(), getCallOptions()), request, responseObserver);
     }
@@ -153,7 +153,7 @@ public final class GreeterGrpc {
 
     /**
      */
-    public com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply sayHello(com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest request) {
+    public com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply sayHello(com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest request) {
       return blockingUnaryCall(
           getChannel(), getSayHelloMethod(), getCallOptions(), request);
     }
@@ -179,8 +179,8 @@ public final class GreeterGrpc {
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply> sayHello(
-        com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest request) {
+    public com.google.common.util.concurrent.ListenableFuture<com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply> sayHello(
+        com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest request) {
       return futureUnaryCall(
           getChannel().newCall(getSayHelloMethod(), getCallOptions()), request);
     }
@@ -206,8 +206,8 @@ public final class GreeterGrpc {
     public void invoke(Req request, io.grpc.stub.StreamObserver<Resp> responseObserver) {
       switch (methodId) {
         case METHODID_SAY_HELLO:
-          serviceImpl.sayHello((com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest) request,
-              (io.grpc.stub.StreamObserver<com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply>) responseObserver);
+          serviceImpl.sayHello((com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest) request,
+              (io.grpc.stub.StreamObserver<com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply>) responseObserver);
           break;
         default:
           throw new AssertionError();
@@ -231,7 +231,7 @@ public final class GreeterGrpc {
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.FileDescriptor getFileDescriptor() {
-      return com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.getDescriptor();
+      return com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.getDescriptor();
     }
 
     @java.lang.Override

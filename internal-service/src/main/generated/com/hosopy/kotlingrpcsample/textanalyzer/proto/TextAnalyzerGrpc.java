@@ -27,30 +27,30 @@ public final class TextAnalyzerGrpc {
   public static final String SERVICE_NAME = "TextAnalyzer";
 
   // Static method descriptors that strictly reflect the proto.
-  private static volatile io.grpc.MethodDescriptor<com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest,
-      com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult> getAnalizeTextMethod;
+  private static volatile io.grpc.MethodDescriptor<com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest,
+      com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult> getAnalizeTextMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "AnalizeText",
-      requestType = com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest.class,
-      responseType = com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult.class,
+      requestType = com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest.class,
+      responseType = com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
-  public static io.grpc.MethodDescriptor<com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest,
-      com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult> getAnalizeTextMethod() {
-    io.grpc.MethodDescriptor<com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest, com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult> getAnalizeTextMethod;
+  public static io.grpc.MethodDescriptor<com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest,
+      com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult> getAnalizeTextMethod() {
+    io.grpc.MethodDescriptor<com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest, com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult> getAnalizeTextMethod;
     if ((getAnalizeTextMethod = TextAnalyzerGrpc.getAnalizeTextMethod) == null) {
       synchronized (TextAnalyzerGrpc.class) {
         if ((getAnalizeTextMethod = TextAnalyzerGrpc.getAnalizeTextMethod) == null) {
           TextAnalyzerGrpc.getAnalizeTextMethod = getAnalizeTextMethod = 
-              io.grpc.MethodDescriptor.<com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest, com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult>newBuilder()
+              io.grpc.MethodDescriptor.<com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest, com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(
                   "TextAnalyzer", "AnalizeText"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest.getDefaultInstance()))
+                  com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult.getDefaultInstance()))
+                  com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult.getDefaultInstance()))
                   .setSchemaDescriptor(new TextAnalyzerMethodDescriptorSupplier("AnalizeText"))
                   .build();
           }
@@ -88,8 +88,8 @@ public final class TextAnalyzerGrpc {
 
     /**
      */
-    public void analizeText(com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest request,
-        io.grpc.stub.StreamObserver<com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult> responseObserver) {
+    public void analizeText(com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest request,
+        io.grpc.stub.StreamObserver<com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult> responseObserver) {
       asyncUnimplementedUnaryCall(getAnalizeTextMethod(), responseObserver);
     }
 
@@ -99,8 +99,8 @@ public final class TextAnalyzerGrpc {
             getAnalizeTextMethod(),
             asyncUnaryCall(
               new MethodHandlers<
-                com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest,
-                com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult>(
+                com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest,
+                com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult>(
                   this, METHODID_ANALIZE_TEXT)))
           .build();
     }
@@ -126,8 +126,8 @@ public final class TextAnalyzerGrpc {
 
     /**
      */
-    public void analizeText(com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest request,
-        io.grpc.stub.StreamObserver<com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult> responseObserver) {
+    public void analizeText(com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest request,
+        io.grpc.stub.StreamObserver<com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult> responseObserver) {
       asyncUnaryCall(
           getChannel().newCall(getAnalizeTextMethod(), getCallOptions()), request, responseObserver);
     }
@@ -153,7 +153,7 @@ public final class TextAnalyzerGrpc {
 
     /**
      */
-    public com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult analizeText(com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest request) {
+    public com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult analizeText(com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest request) {
       return blockingUnaryCall(
           getChannel(), getAnalizeTextMethod(), getCallOptions(), request);
     }
@@ -179,8 +179,8 @@ public final class TextAnalyzerGrpc {
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult> analizeText(
-        com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest request) {
+    public com.google.common.util.concurrent.ListenableFuture<com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult> analizeText(
+        com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest request) {
       return futureUnaryCall(
           getChannel().newCall(getAnalizeTextMethod(), getCallOptions()), request);
     }
@@ -206,8 +206,8 @@ public final class TextAnalyzerGrpc {
     public void invoke(Req request, io.grpc.stub.StreamObserver<Resp> responseObserver) {
       switch (methodId) {
         case METHODID_ANALIZE_TEXT:
-          serviceImpl.analizeText((com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest) request,
-              (io.grpc.stub.StreamObserver<com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult>) responseObserver);
+          serviceImpl.analizeText((com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest) request,
+              (io.grpc.stub.StreamObserver<com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult>) responseObserver);
           break;
         default:
           throw new AssertionError();
@@ -231,7 +231,7 @@ public final class TextAnalyzerGrpc {
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.FileDescriptor getFileDescriptor() {
-      return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.getDescriptor();
+      return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.getDescriptor();
     }
 
     @java.lang.Override

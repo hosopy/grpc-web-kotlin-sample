@@ -3,8 +3,8 @@
 
 package com.hosopy.kotlingrpcsample.textanalyzer.proto;
 
-public final class TextAnalyzerOuterClass {
-  private TextAnalyzerOuterClass() {}
+public final class TextAnalyzerProtobuf {
+  private TextAnalyzerProtobuf() {}
   public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistryLite registry) {
   }
@@ -95,14 +95,14 @@ public final class TextAnalyzerOuterClass {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.internal_static_TextAnalysisRequest_descriptor;
+      return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.internal_static_TextAnalysisRequest_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.internal_static_TextAnalysisRequest_fieldAccessorTable
+      return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.internal_static_TextAnalysisRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest.class, com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest.Builder.class);
+              com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest.class, com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest.Builder.class);
     }
 
     public static final int TEXT_FIELD_NUMBER = 1;
@@ -175,10 +175,10 @@ public final class TextAnalyzerOuterClass {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest)) {
+      if (!(obj instanceof com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest)) {
         return super.equals(obj);
       }
-      com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest other = (com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest) obj;
+      com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest other = (com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest) obj;
 
       boolean result = true;
       result = result && getText()
@@ -201,69 +201,69 @@ public final class TextAnalyzerOuterClass {
       return hash;
     }
 
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest parseFrom(
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest parseFrom(
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest parseFrom(
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest parseFrom(
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest parseFrom(byte[] data)
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest parseFrom(
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest parseFrom(java.io.InputStream input)
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest parseFrom(
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest parseDelimitedFrom(
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest parseFrom(
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest parseFrom(
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -275,7 +275,7 @@ public final class TextAnalyzerOuterClass {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest prototype) {
+    public static Builder newBuilder(com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     public Builder toBuilder() {
@@ -295,20 +295,20 @@ public final class TextAnalyzerOuterClass {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:TextAnalysisRequest)
-        com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequestOrBuilder {
+        com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.internal_static_TextAnalysisRequest_descriptor;
+        return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.internal_static_TextAnalysisRequest_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.internal_static_TextAnalysisRequest_fieldAccessorTable
+        return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.internal_static_TextAnalysisRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest.class, com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest.Builder.class);
+                com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest.class, com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest.Builder.class);
       }
 
-      // Construct using com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest.newBuilder()
+      // Construct using com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -332,23 +332,23 @@ public final class TextAnalyzerOuterClass {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.internal_static_TextAnalysisRequest_descriptor;
+        return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.internal_static_TextAnalysisRequest_descriptor;
       }
 
-      public com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest getDefaultInstanceForType() {
-        return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest.getDefaultInstance();
+      public com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest getDefaultInstanceForType() {
+        return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest.getDefaultInstance();
       }
 
-      public com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest build() {
-        com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest result = buildPartial();
+      public com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest build() {
+        com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
         return result;
       }
 
-      public com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest buildPartial() {
-        com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest result = new com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest(this);
+      public com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest buildPartial() {
+        com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest result = new com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest(this);
         result.text_ = text_;
         onBuilt();
         return result;
@@ -381,16 +381,16 @@ public final class TextAnalyzerOuterClass {
         return (Builder) super.addRepeatedField(field, value);
       }
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest) {
-          return mergeFrom((com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest)other);
+        if (other instanceof com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest) {
+          return mergeFrom((com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest other) {
-        if (other == com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest other) {
+        if (other == com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest.getDefaultInstance()) return this;
         if (!other.getText().isEmpty()) {
           text_ = other.text_;
           onChanged();
@@ -408,11 +408,11 @@ public final class TextAnalyzerOuterClass {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest parsedMessage = null;
+        com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest) e.getUnfinishedMessage();
+          parsedMessage = (com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -505,12 +505,12 @@ public final class TextAnalyzerOuterClass {
     }
 
     // @@protoc_insertion_point(class_scope:TextAnalysisRequest)
-    private static final com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest DEFAULT_INSTANCE;
+    private static final com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest();
+      DEFAULT_INSTANCE = new com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest();
     }
 
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest getDefaultInstance() {
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -533,7 +533,7 @@ public final class TextAnalyzerOuterClass {
       return PARSER;
     }
 
-    public com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisRequest getDefaultInstanceForType() {
+    public com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -614,14 +614,14 @@ public final class TextAnalyzerOuterClass {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.internal_static_TextAnalysisResult_descriptor;
+      return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.internal_static_TextAnalysisResult_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.internal_static_TextAnalysisResult_fieldAccessorTable
+      return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.internal_static_TextAnalysisResult_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult.class, com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult.Builder.class);
+              com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult.class, com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult.Builder.class);
     }
 
     public static final int LENGTH_FIELD_NUMBER = 1;
@@ -670,10 +670,10 @@ public final class TextAnalyzerOuterClass {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult)) {
+      if (!(obj instanceof com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult)) {
         return super.equals(obj);
       }
-      com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult other = (com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult) obj;
+      com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult other = (com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult) obj;
 
       boolean result = true;
       result = result && (getLength()
@@ -696,69 +696,69 @@ public final class TextAnalyzerOuterClass {
       return hash;
     }
 
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult parseFrom(
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult parseFrom(
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult parseFrom(
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult parseFrom(
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult parseFrom(byte[] data)
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult parseFrom(
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult parseFrom(java.io.InputStream input)
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult parseFrom(
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult parseDelimitedFrom(java.io.InputStream input)
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult parseDelimitedFrom(
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult parseFrom(
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult parseFrom(
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -770,7 +770,7 @@ public final class TextAnalyzerOuterClass {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult prototype) {
+    public static Builder newBuilder(com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     public Builder toBuilder() {
@@ -790,20 +790,20 @@ public final class TextAnalyzerOuterClass {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:TextAnalysisResult)
-        com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResultOrBuilder {
+        com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResultOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.internal_static_TextAnalysisResult_descriptor;
+        return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.internal_static_TextAnalysisResult_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.internal_static_TextAnalysisResult_fieldAccessorTable
+        return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.internal_static_TextAnalysisResult_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult.class, com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult.Builder.class);
+                com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult.class, com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult.Builder.class);
       }
 
-      // Construct using com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult.newBuilder()
+      // Construct using com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -827,23 +827,23 @@ public final class TextAnalyzerOuterClass {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.internal_static_TextAnalysisResult_descriptor;
+        return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.internal_static_TextAnalysisResult_descriptor;
       }
 
-      public com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult getDefaultInstanceForType() {
-        return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult.getDefaultInstance();
+      public com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult getDefaultInstanceForType() {
+        return com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult.getDefaultInstance();
       }
 
-      public com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult build() {
-        com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult result = buildPartial();
+      public com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult build() {
+        com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
         return result;
       }
 
-      public com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult buildPartial() {
-        com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult result = new com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult(this);
+      public com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult buildPartial() {
+        com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult result = new com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult(this);
         result.length_ = length_;
         onBuilt();
         return result;
@@ -876,16 +876,16 @@ public final class TextAnalyzerOuterClass {
         return (Builder) super.addRepeatedField(field, value);
       }
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult) {
-          return mergeFrom((com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult)other);
+        if (other instanceof com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult) {
+          return mergeFrom((com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult other) {
-        if (other == com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult other) {
+        if (other == com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult.getDefaultInstance()) return this;
         if (other.getLength() != 0) {
           setLength(other.getLength());
         }
@@ -902,11 +902,11 @@ public final class TextAnalyzerOuterClass {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult parsedMessage = null;
+        com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult) e.getUnfinishedMessage();
+          parsedMessage = (com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -956,12 +956,12 @@ public final class TextAnalyzerOuterClass {
     }
 
     // @@protoc_insertion_point(class_scope:TextAnalysisResult)
-    private static final com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult DEFAULT_INSTANCE;
+    private static final com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult();
+      DEFAULT_INSTANCE = new com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult();
     }
 
-    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult getDefaultInstance() {
+    public static com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -984,7 +984,7 @@ public final class TextAnalyzerOuterClass {
       return PARSER;
     }
 
-    public com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerOuterClass.TextAnalysisResult getDefaultInstanceForType() {
+    public com.hosopy.kotlingrpcsample.textanalyzer.proto.TextAnalyzerProtobuf.TextAnalysisResult getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -1013,8 +1013,9 @@ public final class TextAnalyzerOuterClass {
       "est\022\014\n\004text\030\001 \001(\t\"$\n\022TextAnalysisResult\022" +
       "\016\n\006length\030\001 \001(\0052H\n\014TextAnalyzer\0228\n\013Anali" +
       "zeText\022\024.TextAnalysisRequest\032\023.TextAnaly" +
-      "sisResultB0\n.com.hosopy.kotlingrpcsample" +
-      ".textanalyzer.protob\006proto3"
+      "sisResultBF\n.com.hosopy.kotlingrpcsample" +
+      ".textanalyzer.protoB\024TextAnalyzerProtobu" +
+      "fb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {

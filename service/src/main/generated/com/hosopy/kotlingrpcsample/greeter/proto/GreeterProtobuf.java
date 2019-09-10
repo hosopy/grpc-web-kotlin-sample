@@ -3,8 +3,8 @@
 
 package com.hosopy.kotlingrpcsample.greeter.proto;
 
-public final class GreeterOuterClass {
-  private GreeterOuterClass() {}
+public final class GreeterProtobuf {
+  private GreeterProtobuf() {}
   public static void registerAllExtensions(
       com.google.protobuf.ExtensionRegistryLite registry) {
   }
@@ -95,14 +95,14 @@ public final class GreeterOuterClass {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.internal_static_HelloRequest_descriptor;
+      return com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.internal_static_HelloRequest_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.internal_static_HelloRequest_fieldAccessorTable
+      return com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.internal_static_HelloRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest.class, com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest.Builder.class);
+              com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest.class, com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest.Builder.class);
     }
 
     public static final int NAME_FIELD_NUMBER = 1;
@@ -175,10 +175,10 @@ public final class GreeterOuterClass {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest)) {
+      if (!(obj instanceof com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest)) {
         return super.equals(obj);
       }
-      com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest other = (com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest) obj;
+      com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest other = (com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest) obj;
 
       boolean result = true;
       result = result && getName()
@@ -201,69 +201,69 @@ public final class GreeterOuterClass {
       return hash;
     }
 
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest parseFrom(
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest parseFrom(
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest parseFrom(
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest parseFrom(
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest parseFrom(byte[] data)
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest parseFrom(
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest parseFrom(java.io.InputStream input)
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest parseFrom(
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest parseDelimitedFrom(java.io.InputStream input)
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest parseDelimitedFrom(
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest parseFrom(
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest parseFrom(
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -275,7 +275,7 @@ public final class GreeterOuterClass {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest prototype) {
+    public static Builder newBuilder(com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     public Builder toBuilder() {
@@ -295,20 +295,20 @@ public final class GreeterOuterClass {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:HelloRequest)
-        com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequestOrBuilder {
+        com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequestOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.internal_static_HelloRequest_descriptor;
+        return com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.internal_static_HelloRequest_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.internal_static_HelloRequest_fieldAccessorTable
+        return com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.internal_static_HelloRequest_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest.class, com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest.Builder.class);
+                com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest.class, com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest.Builder.class);
       }
 
-      // Construct using com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest.newBuilder()
+      // Construct using com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -332,23 +332,23 @@ public final class GreeterOuterClass {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.internal_static_HelloRequest_descriptor;
+        return com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.internal_static_HelloRequest_descriptor;
       }
 
-      public com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest getDefaultInstanceForType() {
-        return com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest.getDefaultInstance();
+      public com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest getDefaultInstanceForType() {
+        return com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest.getDefaultInstance();
       }
 
-      public com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest build() {
-        com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest result = buildPartial();
+      public com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest build() {
+        com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
         return result;
       }
 
-      public com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest buildPartial() {
-        com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest result = new com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest(this);
+      public com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest buildPartial() {
+        com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest result = new com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest(this);
         result.name_ = name_;
         onBuilt();
         return result;
@@ -381,16 +381,16 @@ public final class GreeterOuterClass {
         return (Builder) super.addRepeatedField(field, value);
       }
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest) {
-          return mergeFrom((com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest)other);
+        if (other instanceof com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest) {
+          return mergeFrom((com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest other) {
-        if (other == com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest other) {
+        if (other == com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest.getDefaultInstance()) return this;
         if (!other.getName().isEmpty()) {
           name_ = other.name_;
           onChanged();
@@ -408,11 +408,11 @@ public final class GreeterOuterClass {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest parsedMessage = null;
+        com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest) e.getUnfinishedMessage();
+          parsedMessage = (com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -505,12 +505,12 @@ public final class GreeterOuterClass {
     }
 
     // @@protoc_insertion_point(class_scope:HelloRequest)
-    private static final com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest DEFAULT_INSTANCE;
+    private static final com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest();
+      DEFAULT_INSTANCE = new com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest();
     }
 
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest getDefaultInstance() {
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -533,7 +533,7 @@ public final class GreeterOuterClass {
       return PARSER;
     }
 
-    public com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloRequest getDefaultInstanceForType() {
+    public com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloRequest getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -631,14 +631,14 @@ public final class GreeterOuterClass {
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.internal_static_HelloReply_descriptor;
+      return com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.internal_static_HelloReply_descriptor;
     }
 
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.internal_static_HelloReply_fieldAccessorTable
+      return com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.internal_static_HelloReply_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
-              com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply.class, com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply.Builder.class);
+              com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply.class, com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply.Builder.class);
     }
 
     public static final int MESSAGE_FIELD_NUMBER = 1;
@@ -727,10 +727,10 @@ public final class GreeterOuterClass {
       if (obj == this) {
        return true;
       }
-      if (!(obj instanceof com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply)) {
+      if (!(obj instanceof com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply)) {
         return super.equals(obj);
       }
-      com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply other = (com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply) obj;
+      com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply other = (com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply) obj;
 
       boolean result = true;
       result = result && getMessage()
@@ -757,69 +757,69 @@ public final class GreeterOuterClass {
       return hash;
     }
 
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply parseFrom(
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply parseFrom(
         java.nio.ByteBuffer data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply parseFrom(
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply parseFrom(
         java.nio.ByteBuffer data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply parseFrom(
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply parseFrom(
         com.google.protobuf.ByteString data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply parseFrom(
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply parseFrom(
         com.google.protobuf.ByteString data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply parseFrom(byte[] data)
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply parseFrom(byte[] data)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data);
     }
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply parseFrom(
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply parseFrom(
         byte[] data,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws com.google.protobuf.InvalidProtocolBufferException {
       return PARSER.parseFrom(data, extensionRegistry);
     }
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply parseFrom(java.io.InputStream input)
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply parseFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply parseFrom(
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply parseFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply parseDelimitedFrom(java.io.InputStream input)
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply parseDelimitedFrom(java.io.InputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input);
     }
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply parseDelimitedFrom(
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply parseDelimitedFrom(
         java.io.InputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseDelimitedWithIOException(PARSER, input, extensionRegistry);
     }
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply parseFrom(
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply parseFrom(
         com.google.protobuf.CodedInputStream input)
         throws java.io.IOException {
       return com.google.protobuf.GeneratedMessageV3
           .parseWithIOException(PARSER, input);
     }
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply parseFrom(
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply parseFrom(
         com.google.protobuf.CodedInputStream input,
         com.google.protobuf.ExtensionRegistryLite extensionRegistry)
         throws java.io.IOException {
@@ -831,7 +831,7 @@ public final class GreeterOuterClass {
     public static Builder newBuilder() {
       return DEFAULT_INSTANCE.toBuilder();
     }
-    public static Builder newBuilder(com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply prototype) {
+    public static Builder newBuilder(com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply prototype) {
       return DEFAULT_INSTANCE.toBuilder().mergeFrom(prototype);
     }
     public Builder toBuilder() {
@@ -851,20 +851,20 @@ public final class GreeterOuterClass {
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
         // @@protoc_insertion_point(builder_implements:HelloReply)
-        com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReplyOrBuilder {
+        com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReplyOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.internal_static_HelloReply_descriptor;
+        return com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.internal_static_HelloReply_descriptor;
       }
 
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.internal_static_HelloReply_fieldAccessorTable
+        return com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.internal_static_HelloReply_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
-                com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply.class, com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply.Builder.class);
+                com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply.class, com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply.Builder.class);
       }
 
-      // Construct using com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply.newBuilder()
+      // Construct using com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }
@@ -890,23 +890,23 @@ public final class GreeterOuterClass {
 
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.internal_static_HelloReply_descriptor;
+        return com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.internal_static_HelloReply_descriptor;
       }
 
-      public com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply getDefaultInstanceForType() {
-        return com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply.getDefaultInstance();
+      public com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply getDefaultInstanceForType() {
+        return com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply.getDefaultInstance();
       }
 
-      public com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply build() {
-        com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply result = buildPartial();
+      public com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply build() {
+        com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply result = buildPartial();
         if (!result.isInitialized()) {
           throw newUninitializedMessageException(result);
         }
         return result;
       }
 
-      public com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply buildPartial() {
-        com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply result = new com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply(this);
+      public com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply buildPartial() {
+        com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply result = new com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply(this);
         result.message_ = message_;
         result.nameLength_ = nameLength_;
         onBuilt();
@@ -940,16 +940,16 @@ public final class GreeterOuterClass {
         return (Builder) super.addRepeatedField(field, value);
       }
       public Builder mergeFrom(com.google.protobuf.Message other) {
-        if (other instanceof com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply) {
-          return mergeFrom((com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply)other);
+        if (other instanceof com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply) {
+          return mergeFrom((com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply)other);
         } else {
           super.mergeFrom(other);
           return this;
         }
       }
 
-      public Builder mergeFrom(com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply other) {
-        if (other == com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply.getDefaultInstance()) return this;
+      public Builder mergeFrom(com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply other) {
+        if (other == com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply.getDefaultInstance()) return this;
         if (!other.getMessage().isEmpty()) {
           message_ = other.message_;
           onChanged();
@@ -970,11 +970,11 @@ public final class GreeterOuterClass {
           com.google.protobuf.CodedInputStream input,
           com.google.protobuf.ExtensionRegistryLite extensionRegistry)
           throws java.io.IOException {
-        com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply parsedMessage = null;
+        com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply parsedMessage = null;
         try {
           parsedMessage = PARSER.parsePartialFrom(input, extensionRegistry);
         } catch (com.google.protobuf.InvalidProtocolBufferException e) {
-          parsedMessage = (com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply) e.getUnfinishedMessage();
+          parsedMessage = (com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply) e.getUnfinishedMessage();
           throw e.unwrapIOException();
         } finally {
           if (parsedMessage != null) {
@@ -1093,12 +1093,12 @@ public final class GreeterOuterClass {
     }
 
     // @@protoc_insertion_point(class_scope:HelloReply)
-    private static final com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply DEFAULT_INSTANCE;
+    private static final com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply DEFAULT_INSTANCE;
     static {
-      DEFAULT_INSTANCE = new com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply();
+      DEFAULT_INSTANCE = new com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply();
     }
 
-    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply getDefaultInstance() {
+    public static com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply getDefaultInstance() {
       return DEFAULT_INSTANCE;
     }
 
@@ -1121,7 +1121,7 @@ public final class GreeterOuterClass {
       return PARSER;
     }
 
-    public com.hosopy.kotlingrpcsample.greeter.proto.GreeterOuterClass.HelloReply getDefaultInstanceForType() {
+    public com.hosopy.kotlingrpcsample.greeter.proto.GreeterProtobuf.HelloReply getDefaultInstanceForType() {
       return DEFAULT_INSTANCE;
     }
 
@@ -1149,8 +1149,9 @@ public final class GreeterOuterClass {
       "\n\rGreeter.proto\"\034\n\014HelloRequest\022\014\n\004name\030" +
       "\001 \001(\t\"1\n\nHelloReply\022\017\n\007message\030\001 \001(\t\022\022\n\n" +
       "nameLength\030\002 \001(\00521\n\007Greeter\022&\n\010SayHello\022" +
-      "\r.HelloRequest\032\013.HelloReplyB+\n)com.hosop" +
-      "y.kotlingrpcsample.greeter.protob\006proto3"
+      "\r.HelloRequest\032\013.HelloReplyB<\n)com.hosop" +
+      "y.kotlingrpcsample.greeter.protoB\017Greete" +
+      "rProtobufb\006proto3"
     };
     com.google.protobuf.Descriptors.FileDescriptor.InternalDescriptorAssigner assigner =
         new com.google.protobuf.Descriptors.FileDescriptor.    InternalDescriptorAssigner() {
