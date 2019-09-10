@@ -26,6 +26,9 @@ services:
       - "6565:6565"
     depends_on:
       - internal-service
+    environment:
+      TEXT_ANALYZER_HOST: internal-service
+      TEXT_ANALYZER_PORT: 6565
   internal-service:
     build:
       context: ./internal-service
