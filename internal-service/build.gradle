@@ -10,7 +10,7 @@ plugins {
 sourceSets {
     main {
         java {
-            srcDirs 'src/main/grpc'
+            srcDirs 'src/main/generated'
         }
     }
 }
@@ -58,8 +58,15 @@ protobuf {
 
     generateProtoTasks {
         all().each { task ->
+            task.builtins {
+                java {
+                    outputSubDir = "generated"
+                }
+            }
             task.plugins {
-                grpc
+                grpc {
+                    outputSubDir = "generated"
+                }
             }
         }
     }
