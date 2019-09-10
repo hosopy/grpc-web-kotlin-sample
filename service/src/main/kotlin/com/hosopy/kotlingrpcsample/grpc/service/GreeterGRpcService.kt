@@ -7,7 +7,7 @@ import io.grpc.stub.StreamObserver
 import org.lognet.springboot.grpc.GRpcService
 
 @GRpcService
-class GreeterService(
+class GreeterGRpcService(
     private val textAnalyzerClient: TextAnalyzerClient
 ): GreeterGrpc.GreeterImplBase() {
     override fun sayHello(

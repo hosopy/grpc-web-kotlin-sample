@@ -6,7 +6,7 @@ import io.grpc.stub.StreamObserver
 import org.lognet.springboot.grpc.GRpcService
 
 @GRpcService
-class TextAnalyzerService: TextAnalyzerGrpc.TextAnalyzerImplBase() {
+class TextAnalyzerGRpcService: TextAnalyzerGrpc.TextAnalyzerImplBase() {
     override fun analizeText(
         request: TextAnalyzerOuterClass.TextAnalysisRequest,
         responseObserver: StreamObserver<TextAnalyzerOuterClass.TextAnalysisResult>
