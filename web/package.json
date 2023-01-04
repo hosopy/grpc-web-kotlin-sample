@@ -15,7 +15,7 @@
     "@nuxtjs/bulma": "^1.2.1",
     "google-protobuf": "^3.10.0-rc.1",
     "grpc-web": "^1.0.6",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.8",
     "vue-property-decorator": "^8.2.2"
   },
   "devDependencies": {
